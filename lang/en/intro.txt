@@ -1,0 +1,3 @@
+====== IPGroup Manager ======
+
+This plugin allows you to map (anonymous) users from specified networks to a single group.
