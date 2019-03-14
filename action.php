@@ -84,7 +84,7 @@ class action_plugin_ipgroup extends DokuWiki_Action_Plugin {
 
 		// Overwrite Permissions
 	        $GLOBALS['USERINFO']['grps'] = $grps;
-		$GLOBALS['INFO']['perm'] = auth_aclcheck($GLOBALS['ID'],'', $grps);
+		$GLOBALS['INFO']['perm'] = auth_aclcheck($GLOBALS['ID'], $_SERVER['REMOTE_USER'], $grps);
 
 		// Overwrite writable/editable-flags (as done in lib/common.php/pageinfo():137 before)
 		if($GLOBALS['INFO']['exists']){
