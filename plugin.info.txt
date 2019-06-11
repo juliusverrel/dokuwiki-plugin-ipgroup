@@ -1,0 +1,7 @@
+base    igroup-patched
+author  Julius Verrel
+email   tjv23@posteo.de
+date    2019-06-11
+name    IP Group (patched)
+url     https://www.dokuwiki.org/plugin:aclpage-patched
+desc    Define group membership from IP address (patched)
